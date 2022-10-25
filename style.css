@@ -36,3 +36,8 @@ gap: 16px;
     object-fit: cover;
     border-radius: 10px;
 }
+
+.gallery::after{
+    content:"";
+    width:350px;
+}
